@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Updating the distro
 sudo apt update -y
 sudo apt upgrade -y
@@ -14,11 +16,11 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init zsh
 
 # Mamba
-conda install mamba -n base -c conda-forge -y
+gnome-terminal -- sh -c "bash -c \"conda install mamba -n base -c conda-forge -y; exec bash\""
 
 # Installing useful Python libraries
-mamba install jupyterlab ipywidgets pandas matplotlib -y
-mamba install -c conda-forge voila -y
+gnome-terminal -- sh -c "bash -c \"mamba install jupyterlab ipywidgets pandas matplotlib -y; exec bash\""
+gnome-terminal -- sh -c "bash -c \"mamba install -c conda-forge voila -y; exec bash\""
 
 # VirtualBox
 sudo apt install virtualbox-7.0
@@ -32,3 +34,7 @@ sudo snap install codium --classic
 
 # Postman
 sudo snap install postman
+
+# Google Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O ~/Downloads/google-chrome-stable_current_amd64.deb
+sudo apt install ~/Downloads/google-chrome-stable_current_amd64.deb -y
