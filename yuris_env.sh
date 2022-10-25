@@ -38,3 +38,7 @@ sudo snap install postman
 # Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O ~/Downloads/google-chrome-stable_current_amd64.deb
 sudo apt install ~/Downloads/google-chrome-stable_current_amd64.deb -y
+
+# Slack
+sudo apt install slack -y
+
