@@ -40,5 +40,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -
 sudo apt install ~/Downloads/google-chrome-stable_current_amd64.deb -y
 
 # Slack
-sudo apt install slack -y
+sudo snap install slack --classic
 
+# Steam
+sudo snap install steam --classic
