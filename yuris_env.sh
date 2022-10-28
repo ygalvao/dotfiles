@@ -49,3 +49,6 @@ sudo apt install steam -y
 
 # Spotify
 sudo apt install spotify-client -y
+
+# ReText
+sudo apt install retext -y
