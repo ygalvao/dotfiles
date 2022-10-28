@@ -28,6 +28,8 @@ sudo apt install virtualbox-7.0
 # Snap
 sudo rm /etc/apt/preferences.d/nosnap.pref # Deletes the Linux Mint`s restriction file 
 sudo apt install snapd
+sudo apt update -y
+sudo apt upgrade -y
 
 # VSCodium
 sudo snap install codium --classic
@@ -43,4 +45,7 @@ sudo apt install ~/Downloads/google-chrome-stable_current_amd64.deb -y
 sudo snap install slack --classic
 
 # Steam
-sudo snap install steam --classic
+sudo apt install steam -y
+
+# Spotify
+sudo apt install spotify-client -y
