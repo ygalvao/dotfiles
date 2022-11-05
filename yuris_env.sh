@@ -23,6 +23,9 @@ gnome-terminal -- sh -c "bash -c \"mamba install jupyterlab ipywidgets pandas ma
 gnome-terminal -- sh -c "bash -c \"mamba install -c conda-forge voila -y; exec bash\""
 
 # VirtualBox
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install -f -y
 sudo apt install virtualbox-7.0
 
 # Snap
