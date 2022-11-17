@@ -33,6 +33,7 @@ sudo rm /etc/apt/preferences.d/nosnap.pref # Deletes the Linux Mint`s restrictio
 sudo apt install snapd
 sudo apt update -y
 sudo apt upgrade -y
+sudo snap refresh
 
 # VSCodium
 sudo snap install codium --classic
