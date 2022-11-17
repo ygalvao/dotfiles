@@ -55,3 +55,6 @@ sudo apt install spotify-client -y
 
 # ReText
 sudo apt install retext -y
+
+# Ngrok
+sudo snap install ngrok
