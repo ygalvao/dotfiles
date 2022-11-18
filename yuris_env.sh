@@ -59,3 +59,9 @@ sudo apt install retext -y
 
 # Ngrok
 sudo snap install ngrok
+
+# Postfix
+sudo apt install postfix -y
+
+# Mutt
+sudo apt install mutt -y
