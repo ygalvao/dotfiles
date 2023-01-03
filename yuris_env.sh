@@ -65,3 +65,9 @@ sudo apt install postfix -y
 
 # Mutt
 sudo apt install mutt -y
+
+# Pipreqs
+pip install pipreqs
+
+# Gimp
+sudo apt install gimp -y
